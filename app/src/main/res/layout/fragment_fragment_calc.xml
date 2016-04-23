@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="Fragments.FragmentCalc"
-    android:background="@drawable/grid">
+    android:background="@drawable/grid"
+    xmlns:foo="http://schemas.android.com/apk/res-auto">
 
     <!-- TODO: Update blank fragment layout -->
 
@@ -26,13 +27,15 @@
             android:layout_gravity="left|top"
             android:src="@mipmap/pipes" />
 
-        <TextView
+        <admin.example.com.pipes_v2.TextViewPlus
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
             android:text=" Выбор пользователя"
             android:id="@+id/txt_pipes"
             android:layout_gravity="left|center_vertical|right"
             android:inputType="text"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:background="@drawable/rounded"
+            foo:customFont="GOST type A.ttf"/>
     </FrameLayout>
 </FrameLayout>
