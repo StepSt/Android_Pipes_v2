@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Pipes_v2</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="menu_cite">ufatruba.ru</string>
+    <string name="menu_calk">Калькулятор</string>
+    <string name="menu_about">О нас</string>
+    <string name="menu_call">Позвонить</string>
+    <string name="menu_price">Наши цены</string>
+
+    <string name="menu_developer">Разработчики</string>
+    <string name="name_developer">АСиСБ</string>
+    <string name="title_activity_price">price</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
