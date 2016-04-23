@@ -15,12 +15,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-
 import Fragments.FragmentPrice;
+import Fragments.FragmentAbout;
+import Fragments.FragmentCalc;
+
 
 public class Main extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     FragmentPrice price;
+    FragmentAbout about;
+    FragmentCalc calc;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +52,8 @@ public class Main extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
         //region Fragment
         price = new FragmentPrice();
+        about = new FragmentAbout();
+        calc = new FragmentCalc();
         //endregion
     }
 
@@ -92,8 +98,10 @@ public class Main extends AppCompatActivity
 
         if (id == R.id.nav_calk) {
             setTitle(getResources().getText(R.string.menu_calk));
+            transaction.replace(R.id.container,calc);
         } else if (id == R.id.nav_about) {
             setTitle(getResources().getText(R.string.menu_about));
+            transaction.replace(R.id.container,about);
 
         } else if (id == R.id.nav_price) {
             setTitle(getResources().getText(R.string.menu_price));
