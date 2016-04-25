@@ -19,6 +19,8 @@ import Fragments.FragmentPrice;
 import Fragments.FragmentAbout;
 import Fragments.FragmentCalc;
 
+import android.support.v4.app.FragmentActivity;
+
 
 public class Main extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {

@@ -6,10 +6,10 @@
 
     <!-- TODO: Update blank fragment layout -->
 
-        <ru.yandex.yandexmapkit.MapView
-            android:id="@+id/map"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:apiKey="qoL2QoS4pRiLrJdyAJahoiT70TC9WLp53rZpbscNiojrXnhG1syrlDN~XLFA6TwzB7dNFsZoeGJDdDGbU82-RrabbERIhYvZ4ke1Oq1-gzg="/>
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:apiKey="AIzaSyA4C-btj0xhUc0hQ2dSnjZfxaxDyx86Y-8"/>
 
 </FrameLayout>
